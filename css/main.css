@@ -115,6 +115,11 @@ body{
 
 .nav__store_link-item{
     margin-left: 12px;
+    transition: all .5s linear;
+}
+
+.nav__store_link-item:hover{
+    transform: translateY(-10%);
 }
 
 /* ------------MAIN------------------*/
